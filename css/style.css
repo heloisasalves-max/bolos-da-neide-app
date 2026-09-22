@@ -27,7 +27,6 @@ header {
 }
 
 #introducao h1 {
-    margin-top: 5px;
     margin-bottom: 5px;
     line-height: normal;
 }
@@ -38,41 +37,10 @@ header {
 }
 
 
-#fotos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 30px;
-    gap: 20px;
-}
-
-.foto {
-    background-color: white;
-    border-radius: 20px;
-    width: 30%;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.foto img {
-    width: 100%;
-    border-radius: 20px;
-    height: 300px;
-    object-fit: cover;
-    height: auto;
-}
-
-.foto p {
-    margin-top: 10px;
-    font-weight: bold;
-    text-align: center;
-}
-
-#menu {
+nav {
+    font-size: 20px;
     display: flex;
     gap: 15px;
-    font-size: small;
 }
 
 .descricao {
@@ -81,26 +49,9 @@ header {
     align-items: center;
 }
 
-header img {
-    height: 30px;
-     margin-left: -50px;
-    margin-top: -50px;
-    width: 100px;
-    height: auto;
-}
+#logo img{
+    width:100px;
 
-
-.delivery {
-    text-align: center;
-    background-color: pink;
-    border-radius: 5px;
-    padding: 2px 10px;
-}
-
-.tag {
-    text-align: center;
-    margin-bottom: 5px;
-    width: 100%;
 }
 
 footer {
@@ -110,3 +61,50 @@ footer {
  main h2 {
     text-align: center;
  }
+
+ #bolos-proximos h2 {
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+#bolos {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+td {
+    width: 33%;
+    border-style: solid;
+    border-width: 1px;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.imagem {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+td img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.preco {
+    background-color: rgb(212, 126, 130, 0.5);
+}
